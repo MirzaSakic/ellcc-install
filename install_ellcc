@@ -20,6 +20,6 @@ mv ecc-gdb7 ellcc/bin/ecc-gdb
 rm -rf ecc-gdb7.zip helpers.py megadown
 echo "export PATH=$PATH:~/ellcc/bin" >> ~/.bashrc
 export PATH=$PATH:~/ellcc/bin
-echo "alias mips-ecc=\"ecc -target mips32r2el\"" >> ~/.bashrc
+echo "alias mips-ecc=\"ecc -target mips32r2el-linux\"" >> ~/.bashrc
 sudo apt-get install qemu
 
