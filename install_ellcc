@@ -11,4 +11,4 @@ cd ellcc
 echo "export PATH=$PATH:~/ellcc/bin" >> ~/.bashrc
 export PATH=$PATH:~/ellcc/bin
 echo "alias mips-ecc=\"ecc -target mips32r2el-linux\"" >> ~/.bashrc
-sudo apt install qemu gdb-multiarch
+sudo apt install -y qemu gdb-multiarch
