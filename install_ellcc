@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~
-sudo apt install -y build-essential qemu gdb-multiarch
+sudo apt install -y build-essential qemu qemu-user gdb-multiarch
 wget http://ellcc.org/releases/latest/ellcc-x86_64-linux-2017-08-23.bz2 -O ellcc.bz2
 tar xfp ellcc.bz2
 rm -rf ellcc.bz2
